@@ -4,9 +4,10 @@
     @include('includes.head')
 </head>
 <body>
+
 <header class="header">
     <div class=""container">
-    @include('includes.nav')
+        @include('includes.nav')
     </div>
 </header>
 
@@ -20,8 +21,9 @@
 
 <footer class="footer">
     <div class=""container">
-    @include('includes.footer')
+        @include('includes.footer')
     </div>
 </footer>
+
 </body>
 </html>
