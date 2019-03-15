@@ -11,7 +11,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/about">
-                    <span data-feather="home"></span>
+                    <span data-feather="about"></span>
                     About
                 </a>
             </li>
