@@ -1,10 +1,10 @@
 
-    <header class="masthead mb-auto">
+    <header class="masthead mb-auto text-center">
         <div class="inner">
-            <h3 class="masthead-brand">Cover</h3>
+            <h3 class="masthead-brand">Martello Laravel Web App</h3>
             <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="/">Home</a>
-                <a class="nav-link" href="/contact">Contact</a>
+                <a class="nav-link" href="{{route('home')}}">Home</a>
+                <a class="nav-link" href="{{route('contact')}}">Contact</a>
             </nav>
         </div>
     </header>
