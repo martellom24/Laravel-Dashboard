@@ -4,22 +4,13 @@
 @include('includes.head')
 
 <body>
-<header id="header" class="header">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 	@include('includes.nav')
-<header>
 
-<section class="container-fluid">
-    <div class="row">
-        @include('includes.sidebar')
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            @yield('content')
-        </main>
-    </div>
-</section>
+    @yield('content')
 
-<footer id="footer" class="footer">
 	@include('includes.jsfooter')
 	@include('includes.footer')
-</footer>
+</div>
 </body>
 </html>
