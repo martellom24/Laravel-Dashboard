@@ -13,6 +13,9 @@ class PagesController extends Controller
     function contact() {
         return view('pages.contact');
     }
+    function about() {
+        return view('pages.about');
+    }
     function store(Request $request) {
 
         $name = $request->name;
