@@ -16,10 +16,18 @@ class PagesController extends Controller
     function store(Request $request) {
 
         $name = $request->name;
+        // $email = $request->email;
+        // $message = $request->message;
+
+        // $local_vars = array('name' => $name, 'email' => $email, 'message' => $message);
+
+        //dd($local_vars);
+        // dd($request);
 
         return redirect()->route('thanks',['name' => $name]);
+        // return redirect()->route('thanks',[implode(" ", $local_vars)]);
     }
-    function thanks($name, Request $request) {
+    function thanks($name) {
 
         return view('pages.thankyou')->with(compact('name'));
     }
